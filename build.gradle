@@ -15,6 +15,8 @@ repositories {
 dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
     testImplementation('org.junit.platform:junit-platform-engine:+')
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation('org.apache.commons:commons-lang3:3.12.0')
 }
 
 test {
